@@ -100,3 +100,5 @@ wheel==0.35.1
 wincertstore==0.2
 wrapt==1.12.1
 zipp==3.4.0
+cmake
+face_recognition
