@@ -144,7 +144,7 @@ app=Flask(__name__)
 @app.route("/", methods=['GET','POST'])
 def hello():
     if request.method == 'GET':
-        return render_template('color.html')
+        return render_template('color-1.html')
 
     elif request.method == 'POST':
         f = request.files['img-path']
