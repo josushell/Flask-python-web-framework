@@ -157,6 +157,5 @@ def hello():
         elif result == "웜톤(warm)":
             return render_template('warm.html')
         
- # post랑 default 안씀
 if __name__ == "__main__":
     app.run()
