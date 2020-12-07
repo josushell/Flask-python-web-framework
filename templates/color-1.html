@@ -8,9 +8,13 @@
     <meta name="page_type" content="np-template-header-footer-from-plugin">
     <title>color 1</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='nicepage.css') }}" media="screen">
-<link rel="stylesheet" href="{{ url_for('static', filename='color-1.css') }}" media="screen">
+    <link rel="stylesheet" href="{{ url_for('static', filename='color-1.css') }}" media="screen">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <script class="u-script" type="text/javascript" src="{{ url_for('static', filename='jquery.js') }}" defer=""></script>
     <script class="u-script" type="text/javascript" src="{{ url_for('static', filename='nicepage.js') }}" defer=""></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <meta name="generator" content="Nicepage 3.0.9, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i">
@@ -73,11 +77,20 @@
       </div>
     </section>
     <form action="" method="post"  enctype="multipart/form-data">
-      <input type="file", name="img-path">
-      <button type='submit'>Start Test</button>
-  </form>
+      <center>
+        <p>
+          <div class="filebox"> 
+            <label for="ex_file">업로드</label> 
+            <input type="file" name="img-path" id="ex_file">
+          </div>
+        </p>
+        <p>
+          <button class="btn btn-primary btn-lg" type='submit'>Start Test</button>
 
-    
+        </p>
+  
+      </center>
+  </form>
     
     <footer class="u-align-left u-black u-clearfix u-footer u-footer" id="sec-ed9b"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <blockquote class="u-align-center u-text u-text-default u-text-1">2020-2 Opensource Programming<br>Lee Su Bin &amp; Jo Sue Yeon
